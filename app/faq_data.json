@@ -1,0 +1,30 @@
+﻿[
+  {
+    "id": 1,
+    "topic": "delivery",
+    "keywords": ["delivery", "ডেলিভারি", "kobe asbe", "order arrival"],
+    "answer_bn": "Smart Cooking এ ঢাকার ভিতরে ২–৩ কার্যদিবসে ডেলিভারি দেওয়া হয়।",
+    "answer_en": "Smart Cooking delivers within 2–3 business days inside Dhaka."
+  },
+  {
+    "id": 2,
+    "topic": "price",
+    "keywords": ["price", "dam", "cost", "দাম"],
+    "answer_bn": "আমাদের পণ্যের দাম কোয়ালিটি অনুযায়ী নির্ধারিত। ওয়েবসাইটে আপডেটেড দাম পাবেন।",
+    "answer_en": "Our product prices are based on quality. Please check our website for updated prices."
+  },
+  {
+    "id": 3,
+    "topic": "product",
+    "keywords": ["cake mold", "oven", "baking tools", "কেক", "ওভেন"],
+    "answer_bn": "Smart Cooking এ কেক, বেকিং ও কুকিং এর সব ধরনের টুলস ও ইনগ্রেডিয়েন্ট পাওয়া যায়।",
+    "answer_en": "Smart Cooking sells baking tools, cake accessories and cooking ingredients."
+  },
+  {
+    "id": 4,
+    "topic": "refund",
+    "keywords": ["refund", "money back", "রিফান্ড"],
+    "answer_bn": "রিফান্ড প্রসেস ৫–৭ কার্যদিবসের মধ্যে সম্পন্ন হয়।",
+    "answer_en": "Refunds are completed within 5–7 business days."
+  }
+]
