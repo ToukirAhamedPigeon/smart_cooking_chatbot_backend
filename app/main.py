@@ -1,9 +1,10 @@
 ﻿from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from app.models import UserMessage, ChatResponse, UserRegister
+from app.models import UserMessage, ChatResponse, UserRegister, ChatHistoryResponse
 from app.chatbot import get_reply
 from app.db import users_collection
 import asyncio
+from app.services.history_service import load_chat_history
 
 app = FastAPI(title="Smart Cooking Customer Support Chatbot")
 
@@ -32,3 +33,11 @@ async def chat(user_msg: UserMessage):
         return await get_reply(user_msg)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/chat/history/{user_id}", response_model=ChatHistoryResponse)
+async def get_chat_history(user_id: str):
+    try:
+        return await load_chat_history(user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+

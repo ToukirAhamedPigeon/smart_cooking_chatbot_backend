@@ -1,12 +1,3 @@
-"""
-migrate.py
-
-MongoDB collections initialization for Smart Cooking Chatbot.
-
-- Creates 'users' collection with indexes
-- Creates 'chat_histories' collection with indexes
-"""
-
 from motor.motor_asyncio import AsyncIOMotorClient
 import asyncio
 import os
@@ -21,19 +12,18 @@ async def migrate():
     client = AsyncIOMotorClient(MONGO_URI)
     db = client[DB_NAME]
 
-    # Users collection
+    # Users
     users = db.users
     await users.create_index("mobile", unique=True)
-    print("✅ 'users' collection ready with unique index on 'mobile'")
+    print("✅ users.mobile unique index created")
 
-    # Chat Histories collection
+    # Chat histories
     chats = db.chat_histories
     await chats.create_index("user_id")
-    print("✅ 'chat_histories' collection ready with index on 'user_id'")
+    await chats.create_index("messages.created_at")
+    print("✅ chat_histories indexes created")
 
-    # Close client (synchronous)
     client.close()
-    print("MongoDB connection closed.")
 
 if __name__ == "__main__":
     asyncio.run(migrate())

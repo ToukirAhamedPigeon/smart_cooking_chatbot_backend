@@ -1,23 +1,34 @@
 ﻿from pydantic import BaseModel
 from typing import Optional, List
+from datetime import datetime
 
-# User registration request
+
+# ---------- User ----------
 class UserRegister(BaseModel):
-    mobile: str  # user mobile number
+    mobile: str
     name: Optional[str] = None
 
-# User message request
+
+# ---------- Chat ----------
 class UserMessage(BaseModel):
-    user_id: str  # MongoDB ObjectId or mobile
+    user_id: str
     message: str
 
-# Chat response with source and sentiment
+
 class ChatResponse(BaseModel):
     reply: str
     source: str
     sentiment: Optional[str] = None
 
-# Chat history
-class ChatHistory(BaseModel):
+
+# ---------- Chat History ----------
+class ChatMessage(BaseModel):
+    message: str
+    reply: str
+    sentiment: Optional[str] = None
+    created_at: Optional[datetime] = None
+
+class ChatHistoryResponse(BaseModel):
     user_id: str
-    messages: List[dict]
+    messages: List[ChatMessage]
+    source: str
