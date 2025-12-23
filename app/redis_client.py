@@ -1,6 +1,6 @@
 ﻿"""
 File: redis_client.py
-Directory: app/llm.py
+Directory: app/redis_client.py
 Summary:
 This file sets up the Redis client for the application. 
 It is used for caching FAQs and storing user short-term context.

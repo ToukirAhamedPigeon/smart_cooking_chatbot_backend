@@ -1,6 +1,6 @@
 ﻿"""
-File: llm.py
-Directory: app/
+File: main.py
+Directory: app/main.py
 
 Summary:
 This file defines the FastAPI application for the Smart Cooking Customer Support Chatbot. 

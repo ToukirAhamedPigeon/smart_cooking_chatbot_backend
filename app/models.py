@@ -1,6 +1,6 @@
 ﻿"""
-File: llm.py
-Directory: app/
+File: models.py
+Directory: app/models.py
 Description:
 This file contains Pydantic models used for the Smart Cooking Chat application. 
 It defines data structures for user registration, sending messages, receiving chat responses,

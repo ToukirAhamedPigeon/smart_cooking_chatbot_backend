@@ -1,6 +1,6 @@
 ﻿"""
 File: utils.py
-Directory: app/
+Directory: app/utils.py
 Description: 
 This file contains utility functions for text processing and analysis. 
 It includes text normalization, intent detection using FAQ JSON data, 
