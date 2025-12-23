@@ -1,14 +1,18 @@
-﻿fastapi==0.110.0
-uvicorn[standard]==0.27.1
-python-dotenv==1.0.1
+﻿# File: requirements.txt
+# Directory: appname/ (or root project directory)
+# Description: This file lists all Python dependencies required for the FastAPI-based project, including web server, database, NLP, AI, and API client libraries.
 
-motor==3.3.2
-pymongo==4.6.3
+fastapi==0.110.0       # FastAPI web framework for building APIs and web applications.
+uvicorn[standard]==0.27.1  # ASGI server for running FastAPI applications with standard extras for performance and HTTP/2 support.
+python-dotenv==1.0.1   # Library to load environment variables from a .env file into the Python environment.
 
-redis==5.0.1
-nltk==3.8.1
+motor==3.3.2           # Async MongoDB driver for interacting with MongoDB databases asynchronously.
+pymongo==4.6.3         # Official MongoDB driver for Python for synchronous database operations.
 
-openai==1.14.2
-httpx==0.27.0
+redis==5.0.1           # Python client library to connect and interact with Redis database or cache.
+nltk==3.8.1            # Natural Language Toolkit library for NLP tasks like tokenization, stemming, and text processing.
 
-huggingface-hub==0.20.3
+openai==1.14.2          # OpenAI Python client library for interacting with OpenAI API models.
+httpx==0.27.0           # HTTP client for Python supporting async requests for API communication.
+
+huggingface-hub==0.20.3 # Hugging Face Hub library to download and manage pretrained models and datasets.
