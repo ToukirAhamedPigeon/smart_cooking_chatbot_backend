@@ -2,29 +2,442 @@
   {
     "id": 1,
     "topic": "delivery",
-    "keywords": ["delivery", "ডেলিভারি", "kobe asbe", "order arrival"],
-    "answer_bn": "Smart Cooking এ ঢাকার ভিতরে ২–৩ কার্যদিবসে ডেলিভারি দেওয়া হয়।",
-    "answer_en": "Smart Cooking delivers within 2–3 business days inside Dhaka."
+    "keywords": [
+      "delivery","ডেলিভারি","kobe asbe","order arrival","delivery time",
+      "কয়দিন","কখন পাবো","shipping","shipment","courier",
+      "ঢাকার ভিতরে","ঢাকার বাইরে","home delivery","express delivery",
+      "same day","fast delivery","delay","late delivery","order status","track order"
+    ],
+    "answer_bn": "Smart Cooking এ ঢাকার ভিতরে ২–৩ কার্যদিবসে এবং ঢাকার বাইরে ৩–৫ কার্যদিবসে ডেলিভারি দেওয়া হয়।",
+    "answer_en": "Smart Cooking delivers within 2–3 business days inside Dhaka and 3–5 days outside Dhaka."
   },
+
   {
     "id": 2,
     "topic": "price",
-    "keywords": ["price", "dam", "cost", "দাম"],
-    "answer_bn": "আমাদের পণ্যের দাম কোয়ালিটি অনুযায়ী নির্ধারিত। ওয়েবসাইটে আপডেটেড দাম পাবেন।",
-    "answer_en": "Our product prices are based on quality. Please check our website for updated prices."
+    "keywords": [
+      "price","dam","cost","দাম","rate","pricing","মূল্য",
+      "discount","offer","sale","price list","budget",
+      "cheap","expensive","reasonable","offer price","updated price",
+      "current price","best price","deal"
+    ],
+    "answer_bn": "আমাদের পণ্যের দাম কোয়ালিটি অনুযায়ী নির্ধারিত এবং নিয়মিত আপডেট করা হয়।",
+    "answer_en": "Our product prices are based on quality and are updated regularly."
   },
+
   {
     "id": 3,
     "topic": "product",
-    "keywords": ["cake mold", "oven", "baking tools", "কেক", "ওভেন"],
+    "keywords": [
+      "product","পণ্য","item","cake mold","oven","baking tools",
+      "kitchen tools","কুকিং আইটেম","কেক","বেকিং","কুকিং",
+      "accessories","equipment","kitchen accessories",
+      "home baking","professional baking","tools list","available items",
+      "what you sell","inventory"
+    ],
     "answer_bn": "Smart Cooking এ কেক, বেকিং ও কুকিং এর সব ধরনের টুলস ও ইনগ্রেডিয়েন্ট পাওয়া যায়।",
-    "answer_en": "Smart Cooking sells baking tools, cake accessories and cooking ingredients."
+    "answer_en": "Smart Cooking sells all kinds of baking, cooking tools and ingredients."
   },
+
   {
     "id": 4,
     "topic": "refund",
-    "keywords": ["refund", "money back", "রিফান্ড"],
-    "answer_bn": "রিফান্ড প্রসেস ৫–৭ কার্যদিবসের মধ্যে সম্পন্ন হয়।",
-    "answer_en": "Refunds are completed within 5–7 business days."
+    "keywords": [
+      "refund","money back","রিফান্ড","return","ফেরত",
+      "refund policy","return policy","refund time","refund days",
+      "cancel order","order cancel","wrong product","damaged product",
+      "defective","replacement","exchange","refund status",
+      "refund process","refund request","refund issue"
+    ],
+    "answer_bn": "রিফান্ড প্রসেস সাধারণত ৫–৭ কার্যদিবসের মধ্যে সম্পন্ন হয়।",
+    "answer_en": "Refunds are usually completed within 5–7 business days."
+  },
+  {
+    "id": 5,
+    "topic": "payment",
+    "keywords": [
+      "payment","pay","payment method","কিভাবে পেমেন্ট",
+      "bkash","nagad","rocket","card","credit card",
+      "debit card","cash on delivery","cod","online payment",
+      "payment option","mobile banking","bank transfer",
+      "payment issue","payment failed","transaction","checkout"
+    ],
+    "answer_bn": "আমরা বিকাশ, নগদ, কার্ড এবং ক্যাশ অন ডেলিভারি সাপোর্ট করি।",
+    "answer_en": "We support bKash, Nagad, card payments and cash on delivery."
+  },
+  {
+    "id": 6,
+    "topic": "order_process",
+    "keywords": [
+      "order","order process","how to order","কিভাবে অর্ডার",
+      "buy","purchase","checkout","place order",
+      "order steps","ordering","online order","website order",
+      "order guide","order help","order system",
+      "add to cart","confirm order","order now","shop online","buy now"
+    ],
+    "answer_bn": "ওয়েবসাইট থেকে পণ্য নির্বাচন করে সহজেই অর্ডার করা যায়।",
+    "answer_en": "You can easily place an order by selecting products from our website."
+  },
+
+  {
+    "id": 7,
+    "topic": "quality",
+    "keywords": [
+      "quality","কোয়ালিটি","product quality","good quality",
+      "bad quality","standard","premium","durable","long lasting",
+      "trusted","authentic","original","best quality",
+      "food safe","material quality","grade","certified",
+      "reliable","top quality","quality check"
+    ],
+    "answer_bn": "Smart Cooking সবসময় উচ্চমানের এবং ফুড-গ্রেড পণ্য সরবরাহ করে।",
+    "answer_en": "Smart Cooking always provides high-quality and food-grade products."
+  },
+
+  {
+    "id": 8,
+    "topic": "warranty",
+    "keywords": [
+      "warranty","guarantee","ওয়ারেন্টি","product warranty",
+      "replacement warranty","service warranty","warranty period",
+      "how long warranty","claim warranty","warranty policy",
+      "defect warranty","repair","service","support warranty",
+      "warranty card","warranty issue","covered","not working",
+      "warranty support","after sales"
+    ],
+    "answer_bn": "নির্দিষ্ট কিছু পণ্যে ওয়ারেন্টি সুবিধা দেওয়া হয়।",
+    "answer_en": "Warranty is provided for selected products."
+  },
+
+  {
+    "id": 9,
+    "topic": "support",
+    "keywords": [
+      "support","customer support","help","help desk",
+      "customer care","contact support","live chat","call support",
+      "email support","support time","working hours",
+      "support number","support team","assistance",
+      "need help","problem","issue","complaint","support service","reach support"
+    ],
+    "answer_bn": "আমাদের কাস্টমার সাপোর্ট টিম সবসময় আপনাকে সাহায্য করতে প্রস্তুত।",
+    "answer_en": "Our customer support team is always ready to assist you."
+  },
+
+  {
+    "id": 10,
+    "topic": "availability",
+    "keywords": [
+      "available","stock","in stock","out of stock","availability",
+      "পাওয়া যাবে","আছে কিনা","item available","product availability",
+      "stock update","limited stock","restock","back in stock",
+      "availability check","available now","sold out","inventory status",
+      "stock issue","availability time","new stock"
+    ],
+    "answer_bn": "স্টকের উপর ভিত্তি করে পণ্যের প্রাপ্যতা নির্ধারিত হয়।",
+    "answer_en": "Product availability depends on current stock."
+  },
+
+  {
+    "id": 11,
+    "topic": "bulk_order",
+    "keywords": [
+      "bulk order","wholesale","large order","many items",
+      "bulk purchase","wholesale price","bulk discount",
+      "corporate order","restaurant order","bakery order",
+      "bulk buying","quantity order","large quantity",
+      "bulk deal","bulk rate","bulk inquiry","reseller",
+      "dealer order","bulk supply","commercial order"
+    ],
+    "answer_bn": "বাল্ক অর্ডারের জন্য বিশেষ ছাড় এবং সুবিধা রয়েছে।",
+    "answer_en": "Special discounts are available for bulk orders."
+  },
+
+  {
+    "id": 12,
+    "topic": "discount",
+    "keywords": [
+      "discount","offer","sale","ছাড়","deal",
+      "promo","coupon","voucher","promo code",
+      "special offer","limited offer","festival offer",
+      "eid offer","seasonal sale","price off",
+      "discount rate","discount price","offer available",
+      "best deal","discount campaign"
+    ],
+    "answer_bn": "সময় অনুযায়ী বিভিন্ন ডিসকাউন্ট ও অফার দেওয়া হয়।",
+    "answer_en": "Various discounts and offers are provided from time to time."
+  },
+  {
+    "id": 13,
+    "topic": "account",
+    "keywords": [
+      "account","user account","create account","register","registration",
+      "sign up","login","log in","account open","new user",
+      "profile","user profile","account problem","account issue",
+      "password","forgot password","reset password","account access",
+      "user login","account help"
+    ],
+    "answer_bn": "অ্যাকাউন্ট খুলে অর্ডার করলে আপনার অর্ডার হিস্ট্রি ও ট্র্যাকিং সুবিধা পাবেন।",
+    "answer_en": "Creating an account helps you track orders and manage your history."
+  },
+
+  {
+    "id": 14,
+    "topic": "order_tracking",
+    "keywords": [
+      "track order","order tracking","tracking","order status",
+      "delivery status","shipment tracking","order update",
+      "where is my order","track my order","order progress",
+      "courier tracking","tracking number","order check",
+      "status check","track delivery","order location",
+      "delivery update","order follow","shipping status","track shipment"
+    ],
+    "answer_bn": "অর্ডার কনফার্ম হলে ট্র্যাকিং তথ্য SMS বা সাপোর্ট থেকে পাওয়া যাবে।",
+    "answer_en": "Once confirmed, tracking details are shared via SMS or support."
+  },
+
+  {
+    "id": 15,
+    "topic": "cancellation",
+    "keywords": [
+      "cancel order","order cancel","cancellation","cancel request",
+      "order stop","cancel purchase","cancel product",
+      "order cancel policy","cancel time","order cancel option",
+      "cancel before delivery","cancel confirmation","order revoke",
+      "cancel support","order withdrawal","cancel problem",
+      "cancel help","order cancellation","stop order","cancel process"
+    ],
+    "answer_bn": "ডেলিভারির আগে অর্ডার বাতিল করা সম্ভব।",
+    "answer_en": "Orders can be cancelled before delivery."
+  },
+
+  {
+    "id": 16,
+    "topic": "exchange",
+    "keywords": [
+      "exchange","replace","replacement","exchange policy",
+      "change product","wrong product","damaged item",
+      "exchange request","replace item","exchange time",
+      "exchange support","return and exchange","product exchange",
+      "exchange process","exchange help","exchange days",
+      "exchange option","replace order","exchange issue","swap product"
+    ],
+    "answer_bn": "ভুল বা ক্ষতিগ্রস্ত পণ্যের ক্ষেত্রে এক্সচেঞ্জ সুবিধা রয়েছে।",
+    "answer_en": "Exchange is available for wrong or damaged products."
+  },
+
+  {
+    "id": 17,
+    "topic": "authenticity",
+    "keywords": [
+      "original","authentic","genuine","real product",
+      "fake","copy","duplicate","trusted seller",
+      "authenticity","product originality","real item",
+      "original brand","quality assurance","authentic guarantee",
+      "no fake","verified","certified product","original tools",
+      "trusted product","authentic cooking tools"
+    ],
+    "answer_bn": "আমরা শুধুমাত্র অরিজিনাল এবং ভেরিফায়েড পণ্য বিক্রি করি।",
+    "answer_en": "We sell only original and verified products."
+  },
+
+  {
+    "id": 18,
+    "topic": "usage",
+    "keywords": [
+      "how to use","usage","use product","product guide",
+      "instruction","manual","how it works","use case",
+      "usage tips","product usage","how to operate",
+      "how to bake","how to cook","kitchen use",
+      "usage help","usage support","demo","tutorial",
+      "how to apply","how to start"
+    ],
+    "answer_bn": "প্রতিটি পণ্যের সাথে ব্যবহার নির্দেশিকা দেওয়া থাকে।",
+    "answer_en": "Each product comes with usage instructions."
+  },
+
+  {
+    "id": 19,
+    "topic": "cleaning",
+    "keywords": [
+      "cleaning","clean","wash","maintenance","care",
+      "how to clean","cleaning method","product care",
+      "wash guide","dishwasher safe","hand wash",
+      "cleaning tips","maintenance tips","keep clean",
+      "after use","cleaning process","cleaning safety",
+      "hygiene","food safety","clean tools"
+    ],
+    "answer_bn": "ফুড-গ্রেড টুলগুলো হালকা ডিটারজেন্ট দিয়ে পরিষ্কার করা উচিত।",
+    "answer_en": "Food-grade tools should be cleaned with mild detergent."
+  },
+
+  {
+    "id": 20,
+    "topic": "safety",
+    "keywords": [
+      "safety","safe","food safe","health safe",
+      "toxic free","chemical free","safe material",
+      "kitchen safety","usage safety","safe to use",
+      "child safe","heat safe","oven safe",
+      "safety standard","safety guideline","food hygiene",
+      "safe baking","safe cooking","safety certified","no harm"
+    ],
+    "answer_bn": "সব পণ্য ফুড-সেফ এবং স্বাস্থ্যসম্মত।",
+    "answer_en": "All products are food-safe and hygienic."
+  },
+
+  {
+    "id": 21,
+    "topic": "new_arrivals",
+    "keywords": [
+      "new arrival","new product","latest product",
+      "new items","latest tools","new stock",
+      "recent product","new launch","just arrived",
+      "new baking tools","new kitchen items",
+      "what's new","latest collection","fresh stock",
+      "new update","new accessories","new release",
+      "new offer","new addition","new tools"
+    ],
+    "answer_bn": "নিয়মিত নতুন পণ্য আমাদের কালেকশনে যুক্ত হয়।",
+    "answer_en": "New products are added to our collection regularly."
+  },
+
+  {
+    "id": 22,
+    "topic": "custom_order",
+    "keywords": [
+      "custom order","custom product","special order",
+      "personalized","custom request","special request",
+      "custom size","custom mold","custom baking tool",
+      "custom design","made to order","custom item",
+      "custom service","special requirement","custom support",
+      "tailor made","custom kitchen tool","custom inquiry",
+      "custom order help","custom order process"
+    ],
+    "answer_bn": "বিশেষ প্রয়োজনে কাস্টম অর্ডার নেওয়া হয়।",
+    "answer_en": "Custom orders are accepted for special requirements."
+  },
+
+  {
+    "id": 23,
+    "topic": "store_location",
+    "keywords": [
+      "store","shop","location","address",
+      "physical store","offline store","shop address",
+      "where is store","store location","visit store",
+      "outlet","showroom","shop visit","office address",
+      "store map","nearest store","store info",
+      "branch","store details","store place"
+    ],
+    "answer_bn": "বর্তমানে আমরা অনলাইন ভিত্তিক সেবা প্রদান করি।",
+    "answer_en": "Currently, we operate as an online-based service."
+  },
+
+  {
+    "id": 24,
+    "topic": "business_hours",
+    "keywords": [
+      "working hours","business hours","office time",
+      "support time","open time","close time",
+      "service hours","available time","working schedule",
+      "office hours","support hours","operation time",
+      "open days","working days","holiday schedule",
+      "service timing","help hours","support availability",
+      "business timing","contact time"
+    ],
+    "answer_bn": "আমাদের সাপোর্ট প্রতিদিন সকাল ১০টা থেকে রাত ৯টা পর্যন্ত খোলা থাকে।",
+    "answer_en": "Our support is available daily from 10 AM to 9 PM."
+  },
+
+  {
+    "id": 25,
+    "topic": "reviews",
+    "keywords": [
+      "review","reviews","customer review","rating",
+      "feedback","user feedback","testimonial",
+      "customer opinion","rating score","product review",
+      "experience","buyer review","comments","user rating",
+      "review check","trust review","customer response",
+      "review system","feedback system","product rating"
+    ],
+    "answer_bn": "গ্রাহকদের রিভিউ আমাদের সার্ভিস উন্নত করতে সাহায্য করে।",
+    "answer_en": "Customer reviews help us improve our service."
+  },
+
+  {
+    "id": 26,
+    "topic": "complaint",
+    "keywords": [
+      "complaint","complain","problem","issue",
+      "complaint file","report problem","service issue",
+      "product issue","complaint support","complaint process",
+      "complaint help","customer complaint","raise complaint",
+      "complaint resolution","complaint status","complaint desk",
+      "problem solve","issue resolve","complaint contact","support complaint"
+    ],
+    "answer_bn": "যেকোনো অভিযোগ আমাদের সাপোর্ট টিম দ্রুত সমাধান করে।",
+    "answer_en": "Our support team resolves complaints promptly."
+  },
+
+  {
+    "id": 27,
+    "topic": "return_policy",
+    "keywords": [
+      "return","return policy","product return",
+      "return item","return process","return days",
+      "return condition","return request","return support",
+      "return help","return problem","return rule",
+      "return option","return guidelines","return product",
+      "return service","return status","return time",
+      "return contact","return info"
+    ],
+    "answer_bn": "নির্দিষ্ট শর্ত সাপেক্ষে পণ্য রিটার্ন করা যায়।",
+    "answer_en": "Products can be returned under specific conditions."
+  },
+
+  {
+    "id": 28,
+    "topic": "offers_notification",
+    "keywords": [
+      "offer update","offer notification","discount alert",
+      "sale alert","promo update","offer news",
+      "notification","sms offer","email offer",
+      "offer message","latest offer","offer info",
+      "promotion alert","deal update","special alert",
+      "offer reminder","new offer","campaign alert",
+      "discount notification","offer announcement"
+    ],
+    "answer_bn": "নতুন অফার সম্পর্কে জানতে আমাদের ফেসবুক পেজ ফলো করুন।",
+    "answer_en": "Follow our Facebook page to stay updated on new offers."
+  },
+
+  {
+    "id": 29,
+    "topic": "privacy",
+    "keywords": [
+      "privacy","privacy policy","data privacy",
+      "user data","personal data","data protection",
+      "information safety","privacy issue","data secure",
+      "secure data","user privacy","privacy concern",
+      "data usage","privacy terms","privacy rules",
+      "data confidentiality","safe information","privacy help",
+      "data safety","privacy support"
+    ],
+    "answer_bn": "আপনার ব্যক্তিগত তথ্য সম্পূর্ণ নিরাপদ রাখা হয়।",
+    "answer_en": "Your personal information is kept fully secure."
+  },
+
+  {
+    "id": 30,
+    "topic": "trust",
+    "keywords": [
+      "trust","trusted","reliable","safe shop",
+      "trusted brand","trusted seller","why trust",
+      "company trust","reliable service","trusted service",
+      "customer trust","authentic shop","safe purchase",
+      "secure shopping","trustworthy","brand value",
+      "trusted platform","trusted website","confidence",
+      "customer confidence"
+    ],
+    "answer_bn": "Smart Cooking একটি বিশ্বস্ত ও নির্ভরযোগ্য কিচেন সলিউশন ব্র্যান্ড।",
+    "answer_en": "Smart Cooking is a trusted and reliable kitchen solution brand."
   }
 ]

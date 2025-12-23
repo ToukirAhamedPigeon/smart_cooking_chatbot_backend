@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.models import UserMessage, ChatResponse, UserRegister, ChatHistoryResponse
 from app.chatbot import get_reply
 from app.db import users_collection
-import asyncio
+from datetime import datetime, timezone
 from app.services.history_service import load_chat_history
 
 app = FastAPI(title="Smart Cooking Customer Support Chatbot")
@@ -19,7 +19,7 @@ app.add_middleware(
 @app.post("/register")
 async def register(user: UserRegister):
     try:
-        doc = {"mobile": user.mobile, "name": user.name or "", "created_at": asyncio.get_event_loop().time()}
+        doc = {"mobile": user.mobile, "name": user.name or "", "created_at": datetime.now(timezone.utc)}
         result = await users_collection.update_one({"mobile": user.mobile}, {"$setOnInsert": doc}, upsert=True)
         user_id = user.mobile
         return {"user_id": user_id, "message": "User registered successfully."}

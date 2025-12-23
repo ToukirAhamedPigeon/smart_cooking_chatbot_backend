@@ -9,6 +9,7 @@ utils.py
 import re
 import json
 from nltk.sentiment import SentimentIntensityAnalyzer
+from datetime import datetime, timezone
 
 with open("app/faq_data.json", encoding="utf-8-sig") as f:
     FAQ_DATA = json.load(f)
@@ -37,3 +38,17 @@ def sentiment_analysis(text: str) -> str:
     elif score["compound"] <= -0.05:
         return "negative"
     return "neutral"
+
+def normalize_datetime(dt):
+    if isinstance(dt, str):
+        try:
+            dt = datetime.fromisoformat(dt)
+        except Exception:
+            return datetime.now(timezone.utc)
+
+    if isinstance(dt, datetime):
+        if dt.tzinfo is None:
+            return dt.replace(tzinfo=timezone.utc)
+        return dt
+
+    return datetime.now(timezone.utc)
