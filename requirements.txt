@@ -1,8 +1,8 @@
-﻿fastapi
-uvicorn
-python-dotenv
-redis
-motor
-nltk
-huggingface-hub
-openai
+﻿fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-dotenv==1.0.1
+redis==5.0.1
+motor==3.3.2
+nltk==3.8.1
+huggingface-hub==0.20.3
+openai==1.14.2
